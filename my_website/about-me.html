@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand|Yanone+Kaffeesatz" rel="stylesheet">
+	  
+    
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  	<style>
+	    body {
+        font-family: 'Quicksand';
+      }
+      h1 {
+        font-family: 'Quicksand';
+      }
+      .name {
+        text-align: center;
+        font-family: 'Quicksand';
+        font-size: 72px;
+        color: white;
+      }
+      #picture {
+        text-align: center;
+      }
+      .parallax { 
+        /* The image used */
+        background-image: url("images/hexagons.jpg");
+    
+        /* Set a specific height */
+        height: 75px; 
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+      }
+      #main-space {
+        border-color: white;
+        border-width: 5px;
+        border-style: solid;
+        border-radius: 25px;
+        background-color: white;
+        margin: 0px 50px;
+      }
+      #name-space {
+        border-color: rgb(255,50,50);
+        border-width: 5px;
+        border-style: solid;
+        border-radius: 25px 25px 0px 0px;
+        background-color: rgb(255,50,50);
+        margin: -5px -5px;
+      }
+      
+      #panel-right { 
+        border-color: rgb(40,40,40);
+        border-width: 5px;
+        border-style: solid;
+        border-radius: 0px 25px 25px 0px;
+        background-color: rgb(40,40,40);
+        height: 200px;
+        margin: 5px 0px 10px -5px;
+      }
+      #panel-left { 
+        border-color: rgb(40,40,40);
+        border-width: 5px;
+        border-style: solid;
+        border-radius: 25px 0px 0px 25px;
+        background-color: rgb(40,40,40);
+        height: 200px;
+        margin: 5px -5px 10px 0px;
+      }
+    </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid" style="font-family: Quicksand">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html" style="color:rgb(255,50,50)">KIEL MORRIS</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="about-me.html">About Me</a></li>
+    </ul>
+  </div>
+</nav>
+  
+  <div class="parallax"></div>
+    <div class="parallax" style="height: 100%">
+      <div id="main-space">
+        <div id="name-space">
+          <h1 class="name" >About Me</h1>
+        </div>
+        <div style="margin: 0px 0px 0px 0px">
+          <h2 style="margin: 20px 0px">I'm Kiel, here is some things about me</h2>
+          <div class="row">
+            <div class="col-md-3" style="margin: 5px 0px">
+                <img class="center-block img-responsive" src="images/rubiks-cube.png" style="width: 200px; text-align: left">
+            </div>
+            <div class="col-md-9">
+                <div id="panel-right">
+                  <h2 style="color: white; margin: 10px 10px">I can solve a 2x2, 3x3 and 4x4 Rubik's Cube.</h2>
+                </div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-9">
+                <div id="panel-left">
+                  <h2 style="color: white; margin: 10px 10px">My favorite movie is 300.</h2>
+                </div>
+            </div>
+            <div class="col-md-3" style="margin: 5px 0px">
+                <img class="center-block img-responsive" src="images/leonidas.jpg" style="width: 200px; height: 200px; text-align: center">
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-3" style="margin: 5px 0px">
+                <img class="center-block img-responsive" src="images/FRIENDS.jpg" style="width: 200px; height: 200px; text-align: center">
+            </div>
+            <div class="col-md-9">
+                <div id="panel-right">
+                  <h2 style="color: white; margin: 10px 10px">My favorite show is F•R•I•E•N•D•S</h2>
+                </div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-9">
+                <div id="panel-left">
+                  <h2 style="color: white; margin: 10px 10px">My favorite music group is Knife Party.</h2>
+                  <h2 style="color: white; margin: 10px 10px">Here's a song!</h2>
+                </div>
+            </div>
+            <div class="col-md-3" style="margin: 5px 0px">
+                <img class="center-block img-responsive" src="images/kp.jpg" style="width: 200px; height: 200px; text-align: center">
+          </div>
+          <div id="picture">
+            <iframe style="margin: 10px 15px" width="90%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/233681039&amp;color=512d67&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"></div>
+</body>
+
+</html>
