@@ -15,56 +15,12 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  	<style>
-	    body {
-        font-family: 'Quicksand';
-      }
-      h1 {
-        font-family: 'Quicksand';
-      }
-      .name {
-        text-align: center;
-        font-family: 'Quicksand';
-        font-size: 72px;
-        color: white;
-      }
-      #picture {
-        text-align: center;
-      }
-      .parallax { 
-        /* The image used */
-        background-image: url("images/hexagons.jpg");
-    
-        /* Set a specific height */
-        height: 75px; 
-    
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: repeat;
-        background-size: cover;
-      }
-      #main-space {
-        border-color: white;
-        border-width: 5px;
-        border-style: solid;
-        border-radius: 25px;
-        background-color: white;
-        margin: 0px 50px;
-      }
-      #name-space {
-        border-color: rgb(255,50,50);
-        border-width: 5px;
-        border-style: solid;
-        border-radius: 25px 25px 0px 0px;
-        background-color: rgb(255,50,50);
-        margin: -5px -5px;
-      }
-    </style>
 </head>
 
+<link href="style.css" type="text/css" rel="stylesheet">
+
 <body>
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid" style="font-family: Quicksand">
     <div class="navbar-header">
       <a class="navbar-brand" href="index.html" style="color:rgb(255,50,50)">KIEL MORRIS</a>
@@ -72,6 +28,9 @@
     <ul class="nav navbar-nav">
       <li><a href="portfolio.html">Portfolio</a></li>
       <li><a href="about-me.html">About Me</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#" data-toggle="tooltip" title="This does nothing!" data-placement="bottom"><span class="glyphicon glyphicon-globe"></span></a></li>
     </ul>
   </div>
 </nav>
@@ -92,7 +51,6 @@
       </div>
     </div>
     <div class="parallax" style="height: 600px"></div>
-
 </body>
 
 </html>
