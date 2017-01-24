@@ -20,7 +20,7 @@ h1 {
   /* Set a specific height */
   height: 75px; 
 
-  /* Create the parallax scrolling effect */
+  /* Create the parallax scrolling effect */ 
   background-attachment: fixed;
   background-position: center;
   background-repeat: repeat;
